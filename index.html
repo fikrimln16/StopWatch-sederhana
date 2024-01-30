@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <script src="script.js"></script>
+</head>
+<body>
+   <div class="stopwatch">
+      <div class="timer">
+         <span id="jam">00</span> <p>:</p>
+         <span id="menit">00</span> <p>:</p>
+         <span id="detik">00</span> <p>:</p>
+         <span id="milidetik">00</span>
+      </div>
+      <div class="desc">
+         <p>Your time <span id="desc-list">starts now</span></p>
+      </div>
+      <div class="tombol">
+         <a id="play" onclick="playFunc()"><i class='bx bx-play' ></i></a>
+         <a id="stop" onclick="stopFunc()"><i class='bx bx-stop' ></i></a>
+         <a id="reset" onclick="resetFunc()"><i class='bx bx-reset' ></i></a>
+      </div>
+   </div>
+</body>
+</html>
